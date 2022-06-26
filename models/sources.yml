@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: google_sheets
+    database: re_data_google_sheets
+    schema: raw
+    tables:
+      - name: ufo
+        identifier: ufo
